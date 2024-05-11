@@ -43,6 +43,19 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
 
+  <!--Start of Tawk.to Script-->
+  <script type="text/javascript">
+    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+    (function () {
+      var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+      s1.async = true;
+      s1.src = 'https://embed.tawk.to/662537221ec1082f04e53e5f/1hs0luo7r';
+      s1.charset = 'UTF-8';
+      s1.setAttribute('crossorigin', '*');
+      s0.parentNode.insertBefore(s1, s0);
+    })();
+  </script>
+  <!--End of Tawk.to Script-->
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".fixed-top">
@@ -70,29 +83,29 @@
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse navbar-expand-lg">
+      <div  id="navbarSupportedContent" class="collapse navbar-collapse navbar-expand-lg">
         <ul class="navbar-nav">
           <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
           <li class="hidden">
             <a href="#page-top py-3"></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link page-scroll py-3" href="#about">About</a>
+            <a class="nav-link page-scroll py-3" href="#about" data-bs-toggle="collapse">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link page-scroll py-3" href="#services">Services</a>
+            <a class="nav-link page-scroll py-3" href="#services" data-bs-toggle="collapse">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link page-scroll py-3" href="#trucking">Trucking</a>
+            <a class="nav-link page-scroll py-3" href="#trucking" data-bs-toggle="collapse">Trucking</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link page-scroll py-3" href="#warehouse">Warehouse</a>
+            <a class="nav-link page-scroll py-3" href="#warehouse" data-bs-toggle="collapse">Warehouse</a>
           </li class="nav-item">
           <li>
-            <a class="nav-link page-scroll py-3" href="#shipping">Shipping</a>
+            <a class="nav-link page-scroll py-3" href="#shipping" data-bs-toggle="collapse">Shipping</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link page-scroll py-3" href="#contact">Contact</a>
+            <a class="nav-link page-scroll py-3" href="#contact" data-bs-toggle="collapse">Contact</a>
           </li>
         </ul>
       </div>
@@ -118,41 +131,23 @@
     </div>
   </header>
 
-  <!-- Contact Section -->
-  <section id="contact" class="container content-section text-center">
-    <div class="row">
-      <div class="col-lg-6 col-lg-offset-2">
-        <h2 class="text-decoration-underline">Request Rate Quote</h2>
-        <a class="icon-link btn btn-dark btn-lg" href="https://form.jotform.com/60427411396151" target="_blank">
-          <img src="img/rfq.jpg" alt="Image" class="img-fluid">
-        </a>
-        <!-- <p>
-          <a href="https://form.jotform.com/60427411396151" target="_blank" class="btn btn-default btn-lg">Rate
-            Quote</a>
-        </p> -->
-
-      </div>
-      <div class="col-lg-6 col-lg-offset-2 d-flex flex-column justify-content-between">
-        <h2 class="text-decoration-underline">Connect With Us</h2>
-        <div class="row fs-4">
-          <div class="my-2 color-dark"><i class="fa fa-phone"></i> 888-402-3277</div>
-          <div class="my-2"><i class="fa fa-fax"></i> 888-402-3277</div>
-          <div class="my-2"><i class="fa fa-envelope"></i> ada@gmail.com</div>
-        </div>
-        <div class="row">
-          <div class="d-flex justify-content-evenly">
-            <a href="https://twitter.com/ADAExpressLLC" class="btn btn-dark btn-lg"><i
-                class="fa fa-twitter fa-fw"></i>
-              <span class="network-name">Twitter</span></a>
-            <a href="https://www.fb.com/AdaExpress" class="btn btn-dark btn-lg"><i class="fa fa-facebook fa-fw"></i>
-              <span class="network-name">Facebook</span></a>
-          </div>
-        </div>
-      </div>
-  </section>
-
   <!-- About Section -->
-  <section id="about" class="container content-section">
+  <section id="about" class="container content-section text-center">
+    <div class="row justify-content-center my-5 py-5">
+      <div class="col-lg-8 col-lg-offset-2">
+        <h2>We Are Northwest Trucking Company</h2>
+        <p>ADA Express, LLC is a family owned intermodal trucking company, we have trucks running from Seattle/Tacoma
+          ports thru-out Pacific Northwest Region (WA, OR, ID, MT). We also work with owner operators if capacity
+          exceeds our own assets.</p>
+        <p>We can handle legal weight containers, 20/40/45 and heavy 40’ containers up to 55,000lbs in product weight,
+          combined gross weight of 92,500 with our 7axle equipment.</p>
+        <p>ADA Express, LLC maintains a strong commitment to a continually improving quality process, allowing us to
+          consistently provide the best service to our customers. We conduct our business with the highest ethical
+          standards. Truth and honesty are essential to the way we operate. </p>
+      </div>
+    </div>
+  </section>
+  <section class="container content-section d-none">
     <div class="row">
       <!-- <div class="col-lg-8 col-lg-offset-2"> -->
       <div class="container">
@@ -294,9 +289,8 @@
               <div class="row">
                 <div class="m-auto pb-4 fs-4">
                   ADA Express warehousing division is a premier with warehousing facilities. We offer 100% supply chain
-                  solutions, including local and long haul trucking in and out of Cowan facilities. We have warehouse
-                  spaces in close proximity to the Ports of Baltimore, MD, Norfolk, VA, central VA (Lynchburg), and New
-                  York and New Jersey.
+                  solutions, including local and long haul trucking in and out of facilities. We have warehouse
+                  spaces in close proximity to the Ports of Tacoma.
                 </div>
                 <img src="img/container-parking-2.jpg" alt="Image" class="img-fluid w-100">
 
@@ -327,25 +321,26 @@
                   type of transport used, there are road, air, rail and sea container transportation, which can be
                   carried out both within the state and to international destinations.
                 </div>
-                <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                <div id="carouselExampleFade" class="carousel carousel-dark slide carousel-fade"
+                  data-bs-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
-                      <img src="img/konteyner-0.jpg" class="d-block w-50 m-auto" alt="konteyner1">
+                      <img src="img/konteyner-0.jpg" class="d-block w-100 m-auto" alt="konteyner1">
                     </div>
                     <div class="carousel-item ">
-                      <img src="img/konteyner-1.jpg" class="d-block w-50 m-auto" alt="konteyner2">
+                      <img src="img/konteyner-1.jpg" class="d-block w-100 m-auto" alt="konteyner2">
                     </div>
                     <div class="carousel-item">
-                      <img src="img/konteyner-2.png" class="d-block w-50 m-auto" alt="konteyner3">
+                      <img src="img/konteyner-2.png" class="d-block w-100 m-auto" alt="konteyner3">
                     </div>
                     <div class="carousel-item">
-                      <img src="img/konteyner-3.jpg" class="d-block w-50 m-auto" alt="konteyner4">
+                      <img src="img/konteyner-3.jpg" class="d-block w-100 m-auto" alt="konteyner4">
                     </div>
                     <div class="carousel-item ">
-                      <img src="img/konteyner-4.jpg" class="d-block w-50 m-auto" alt="konteyner5">
+                      <img src="img/konteyner-4.jpg" class="d-block w-100 m-auto" alt="konteyner5">
                     </div>
                     <div class="carousel-item ">
-                      <img src="img/ada_car7.jpg" class="d-block w-50 m-auto" alt="konteyner5">
+                      <img src="img/ada_car7.jpg" class="d-block w-100 m-auto" alt="konteyner5">
                     </div>
                   </div>
                   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
@@ -368,26 +363,56 @@
     </div>
   </section>
 
-  <!-- Map Section -->
-  <!-- <div id="map"></div> -->
-  <section id="map">
-    <div class="map-section">
-      <div class="container">
-        <div class="col">
-          <div class="ratio ratio-21x9" style="height: 450px;">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2708.1629610804166!2d-122.40612592320153!3d47.25251661236115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54905514424ac5ab%3A0x41ce81736a1ddbee!2sADA%20Express%20LLC%20(Container%20Storage%20Yard)!5e0!3m2!1sru!2sua!4v1715314341993!5m2!1sru!2sua"
-              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
+  <!-- Contact Section -->
+  <section id="contact" class="container content-section text-center py-5">
+    <h2 class="text-decoration-underline text-start">Contacts</h2>
+
+    <!-- Map Section -->
+    <!-- <div id="map"></div> -->
+    <section id="map">
+      <div class="map-section">
+        <div class="ratio ratio-21x9" style="height: 450px;">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2708.1629610804166!2d-122.40612592320153!3d47.25251661236115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54905514424ac5ab%3A0x41ce81736a1ddbee!2sADA%20Express%20LLC%20(Container%20Storage%20Yard)!5e0!3m2!1sru!2sua!4v1715314341993!5m2!1sru!2sua"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <div class="row">
+      <div class="col-lg-6 col-lg-offset-2">
+        <h2 class="text-decoration-underline">Request Rate Quote</h2>
+        <a class="icon-link btn btn-dark btn-lg" href="https://form.jotform.com/60427411396151" target="_blank">
+          <img src="img/rfq.jpg" alt="Image" class="img-fluid">
+        </a>
+        <!-- <p>
+          <a href="https://form.jotform.com/60427411396151" target="_blank" class="btn btn-default btn-lg">Rate
+            Quote</a>
+        </p> -->
+
+      </div>
+      <div class="col-lg-6 col-lg-offset-2 d-flex flex-column justify-content-between">
+        <h2 class="text-decoration-underline">Connect With Us</h2>
+        <div class="row fs-4">
+          <div class="my-2 color-dark"><i class="fa fa-phone"></i> 888-402-3277</div>
+          <div class="my-2"><i class="fa fa-fax"></i> 888-402-3277</div>
+          <div class="my-2"><i class="fa fa-envelope"></i> ada@gmail.com</div>
+        </div>
+        <div class="row">
+          <div class="d-flex justify-content-evenly">
+            <a href="https://twitter.com/ADAExpressLLC" class="btn btn-dark btn-lg"><i class="fa fa-twitter fa-fw"></i>
+              <span class="network-name">Twitter</span></a>
+            <a href="https://www.fb.com/AdaExpress" class="btn btn-dark btn-lg"><i class="fa fa-facebook fa-fw"></i>
+              <span class="network-name">Facebook</span></a>
           </div>
         </div>
       </div>
-    </div>
   </section>
 
   <!-- Footer -->
-  <footer>
+  <footer class="d-none">
     <div class="container text-center">
       <p>ADA Express, LLC<br><i class="fa fa-phone"></i>&nbsp; 888-402-3277&nbsp;|&nbsp; <i class="fa fa-fax"></i>&nbsp;
         888-402-3277</p>
@@ -420,7 +445,7 @@
 
     ga('create', 'UA-373681-8', 'auto');
     ga('send', 'pageview');
-    
+
 
   </script>
 
