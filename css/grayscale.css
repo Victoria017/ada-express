@@ -296,7 +296,7 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
+    padding-top: 100px !important;
 }
 
 .services-section {
@@ -333,6 +333,7 @@ a:focus {
 @media(min-width:767px) {
     .content-section {
         padding-top: 100px;
+        padding-top: 100px !important;
     }
 
     .services-section {
