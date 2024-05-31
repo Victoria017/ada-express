@@ -18,15 +18,15 @@ $(document).ready(collapseNavbar);
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
-    const menuToggle = document.getElementById('navbarSupportedContent');
-    const bsCollapse = new bootstrap.Collapse(menuToggle, {toggle:false});
+    //const menuToggle = document.getElementById('navbarSupportedContent');
+    //const bsCollapse = new bootstrap.Collapse(menuToggle, {toggle:false});
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
-        bsCollapse.toggle();
+        // bsCollapse.toggle();
     });
     /*
     const navLinks = document.querySelectorAll('.nav-item')
