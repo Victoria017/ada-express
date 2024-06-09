@@ -533,3 +533,12 @@ body {
     opacity: 0;
     animation-name: fadeInUp;
 }
+
+.logo {
+    width: 100%;
+    transition: width 0.6s;
+}
+    
+.top-nav-collapse .logo {
+    width: 50%;
+}
